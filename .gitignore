@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment files and credentials (CRITICAL: Never commit secrets)
+.env
+.env.local
+.env.*.local
+*/.env
+*/.env.local
+contesthon-backend/.env
+contesthon-frontend/.env
+
+# Build outputs
+dist/
+*/dist/
+build/
+*/build/
+
+# Local databases and runtime data
+data/
+*/data/
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

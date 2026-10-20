@@ -28,8 +28,10 @@ app.use('/api/discover', discoverRoutes);
 app.use('/api/events', eventRoutes);
 app.use('/api/applications', applicationRoutes);
 
-app.listen(PORT, () => {
-  console.log(`Contesthon API running on http://localhost:${PORT}`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`Contesthon API running on http://localhost:${PORT}`);
+  });
+}
 
 export default app;

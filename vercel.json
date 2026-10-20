@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd contesthon-frontend && pnpm install && pnpm run build",
+  "outputDirectory": "contesthon-frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

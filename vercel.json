@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd contesthon-frontend && pnpm install && pnpm run build",
+  "buildCommand": "cd contesthon-frontend && npm install && npm run build",
   "outputDirectory": "contesthon-frontend/dist",
   "framework": "vite",
   "rewrites": [

@@ -1,8 +1,12 @@
 {
+  "version": 2,
   "buildCommand": "cd contesthon-frontend && npm install && npm run build",
   "outputDirectory": "contesthon-frontend/dist",
-  "framework": "vite",
   "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api"
+    },
     {
       "source": "/(.*)",
       "destination": "/index.html"

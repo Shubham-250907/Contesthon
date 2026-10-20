@@ -14,7 +14,7 @@ interface StorageData {
 }
 
 class AppStore {
-  private dataDir = path.resolve(process.cwd(), 'data');
+  private dataDir = process.env.VERCEL ? path.resolve('/tmp', 'data') : path.resolve(process.cwd(), 'data');
   private dbFile = path.resolve(this.dataDir, 'db.json');
   private state: StorageData = {
     events: {},

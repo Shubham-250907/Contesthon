@@ -19,7 +19,7 @@ app.use(express.json({ limit: '10mb' }));
 
 // Health check
 app.get('/api/health', (_req, res) => {
-  res.json({ status: 'ok', service: 'ContestHon API', timestamp: new Date().toISOString() });
+  res.json({ status: 'ok', service: 'Contesthon API', timestamp: new Date().toISOString() });
 });
 
 // Routes
@@ -29,7 +29,7 @@ app.use('/api/events', eventRoutes);
 app.use('/api/applications', applicationRoutes);
 
 app.listen(PORT, () => {
-  console.log(`ContestHon API running on http://localhost:${PORT}`);
+  console.log(`Contesthon API running on http://localhost:${PORT}`);
 });
 
 export default app;

@@ -19,7 +19,7 @@ function ProtectedRoute({ children }: { children: React.ReactNode }) {
         <Trophy className="w-6 h-6 text-brand-600" />
       </div>
       <Loader2 className="w-5 h-5 animate-spin text-brand-600" />
-      <p className="text-sm text-gray-500">Loading ContestHon...</p>
+      <p className="text-sm text-gray-500">Loading Contesthon...</p>
     </div>
   );
   if (!user) return <Navigate to="/auth" replace />;

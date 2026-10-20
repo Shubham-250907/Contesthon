@@ -33,7 +33,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
               <Trophy className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h1 className="font-bold text-gray-900 text-lg leading-none">ContestHon</h1>
+              <h1 className="font-bold text-gray-900 text-lg leading-none">Contesthon</h1>
               <p className="text-xs text-gray-400">Opportunity Assistant</p>
             </div>
           </div>

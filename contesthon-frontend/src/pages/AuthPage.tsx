@@ -64,7 +64,7 @@ export function AuthPage() {
           <div className="w-16 h-16 bg-white/20 backdrop-blur rounded-2xl flex items-center justify-center mx-auto mb-4">
             <Trophy className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-3xl font-bold text-white">ContestHon</h1>
+          <h1 className="text-3xl font-bold text-white">Contesthon</h1>
           <p className="text-brand-200 mt-1">Your personalized opportunity assistant</p>
         </div>
 

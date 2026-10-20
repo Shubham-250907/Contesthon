@@ -82,7 +82,7 @@ export function RegistrationModal({ application, registrationUrl, eventTitle, us
           <div className="flex items-start gap-2 p-3 bg-blue-50 rounded-lg border border-blue-100">
             <AlertCircle className="w-4 h-4 text-blue-600 mt-0.5 shrink-0" />
             <p className="text-xs text-blue-700">
-              <strong>Human-in-the-loop:</strong> ContestHon never auto-submits. All form data is shown here for your review before you submit manually.
+              <strong>Human-in-the-loop:</strong> Contesthon never auto-submits. All form data is shown here for your review before you submit manually.
             </p>
           </div>
 
